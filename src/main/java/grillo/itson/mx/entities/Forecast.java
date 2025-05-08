@@ -4,6 +4,7 @@
  */
 package grillo.itson.mx.entities;
 
+import com.google.gson.annotations.SerializedName;
 import grillo.itson.mx.enums.Weatherstatus;
 import java.util.Date;
 
@@ -13,7 +14,9 @@ import java.util.Date;
  */
 public class Forecast {
     private Date day;
+    @SerializedName("max_temperature")
     private int maxTemperature;
+    @SerializedName("min_temperature")
     private int minTemperature;
     private Weatherstatus status;
 

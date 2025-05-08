@@ -10,4 +10,12 @@
         <maven.compiler.release>18</maven.compiler.release>
         <exec.mainClass>com.gaston.grillo.Grillo</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId> Gson </artifactId>
+            <version>2.12.1</version>
+        </dependency>    
+     </dependencies>    
+        
 </project>
